@@ -1,0 +1,9 @@
+I=imread('C:\Users\ÊÈÑª\Desktop\Z.jpg');
+subplot(1,4,1);
+imshow(I);title('Ô­Í¼Ïñ','fontsize',9);
+subplot(1,4,2);
+imshow(imadjust(I,[],[],0.3));title('Gamma=0.3');
+subplot(1,4,3);
+imshow(imadjust(I,[],[],0.9));title('Gamma=0.9');
+subplot(1,4,4);
+imshow(imadjust(I,[],[],1.6));title('Gamma=1.6');
